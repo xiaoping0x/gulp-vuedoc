@@ -1,0 +1,29 @@
+{
+  "name": "gulp-vuedoc",
+  "version": "1.0.0",
+  "description": "Generate jsdoc for [vuejs](http://vuejs.org) component using documentation.js.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "through2": "^2.0.1",
+    "vinyl": "^2.0.0",
+    "vue-template-compiler": "^2.0.5"
+  },
+  "scripts": {
+    "test": "npm run install && cd test; gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoping0x/gulp-vuedoc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoping0x/gulp-vuedoc/issues"
+  },
+  "homepage": "https://github.com/xiaoping0x/gulp-vuedoc#readme"
+}
