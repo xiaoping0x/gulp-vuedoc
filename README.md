@@ -2,6 +2,8 @@
 
 Generate jsdoc for [vuejs](http://vuejs.org) component using documentation.js.
 
+**Notice: need modified [documentation.js](https://github.com/xiaoping0x/documentation)**
+
 ## Usage
 
     npm i -D gulp-vuedoc
@@ -20,3 +22,14 @@ gulp.task('doc', function () {
     .pipe(gulp.dest('apidocs'));
 });
 ```
+
+## Credits
+
+* [documentation.js](https://github.com/documentationjs/documentation)
+* [gulp-documentation](https://github.com/documentationjs/gulp-documentation)
+* [vue-template-compiler](https://github.com/vuejs/vue)
+
+## License
+
+MIT
+
